@@ -1,0 +1,25 @@
+{
+  "name": "proportional",
+  "version": "0.0.1",
+  "description": "A library intended to make CLI's easier to work with",
+  "main": "proportional.js",
+  "scripts": {
+    "lint": "eslint ./proportional.js ./context-manager.js ./examples/**/*.js",
+    "format": "prettier-eslint ./proportional.js ./examples/**/*.js ./context-manager.js --write"
+  },
+  "author": "Even Stensberg <evenstensberg@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "CLI",
+    "0CJS"
+  ],
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-google": "^0.9.1",
+    "eslint-plugin-node": "^6.0.1",
+    "prettier-eslint-cli": "^4.7.1"
+  },
+  "dependencies": {
+    "yargs-parser": "^10.0.0"
+  }
+}

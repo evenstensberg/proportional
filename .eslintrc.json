@@ -1,0 +1,14 @@
+{
+	"root": true,
+	"plugins": ["node"],
+	"extends": ["eslint:recommended", "google"],
+	"env": {
+		"node": true,
+		"es6": true,
+		"jest": false
+	},
+	"parserOptions": { "ecmaVersion": 2017, "sourceType": "module"},
+	"rules": {
+		"require-jsdoc": "off"
+	}
+}
