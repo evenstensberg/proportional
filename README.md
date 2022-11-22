@@ -228,9 +228,3 @@ CLI.run(process.argv.slice(2));
 You can also pass the level to the CLI you want to swap to if you want to. If you have set the level `thisLevel` programatically, but your current level is `previousLevel` you can swap to the level by calling `node ./path/to/myCLI.js thisLevel <args>`.
 
 `$ node ./my/path.js levelTwo --help`
-
-# todo
-
-- Use private methods for store
-- Expose more yargs methods / bridge to other tools or build the API from scratch
-- Swap Environment based on current node version, i.e node v6 should require a different module than v8.
