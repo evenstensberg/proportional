@@ -10,8 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "lighthouse": "^2.9.4",
-    "psi": "^3.1.0",
-    "webpagetest": "^0.3.8"
+    "lighthouse": "^4.0.0",
+    "psi": "^4.1.0",
+    "webpagetest": "^0.6.0"
   }
 }
